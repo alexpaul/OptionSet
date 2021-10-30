@@ -30,6 +30,19 @@ if freeOptions.contains(.priority) {
 } else {
     print("Add more to your cart to earn free priority shipping.")
 }
+
+// create unique options as static properties of your custom type
+// using unique powers of two (1, 2, 4, 8, 16, and so forth)
+// for each individual property's raw value so that each property
+// can be represented by a single bit of the type's raw value.
+
+// shifting bits to the left
+1 << 0 // 0001 => 1
+1 << 1 // 0010 => 2
+1 << 2 // 0100 => 4
+1 << 3 // 1000 => 8
+1 << 4 // 0000_0000 => 16
+1 << 5 // 0010_0000 => 32
 ```
 
 ## Resources 
