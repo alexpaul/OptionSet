@@ -47,4 +47,4 @@ if freeOptions.contains(.priority) {
 
 ## Resources 
 
-* [SwiftDoc.org](https://swiftdoc.org/v3.0/protocol/optionset/)
+* [Apple Documentation](https://developer.apple.com/documentation/swift/optionset)
